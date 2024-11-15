@@ -1,0 +1,129 @@
+@charset "utf-8";
+ 
+html {
+    font-family: 'Nunito Sans', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 35pxpx;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color: #e24b4b;
+
+}
+
+body {
+  background-image: url('../img/background-image.jpg');  
+  background-size: cover;                    
+  background-position: center;              
+  background-repeat: no-repeat;             
+  margin: 0;                                
+  height: 100vh;
+  align-items: center;                                       
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+    color: #ffffff;
+  }
+  
+.game {
+    background-color: #565f9e;
+    opacity: 0.9;
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: auto;
+    height: 350px;
+    width: 365px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px #575656;
+}
+  
+.timer, .score {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.word {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+  
+#word {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 24px;
+   
+}
+
+/* Using # to select elements by their id */
+
+#input {
+    padding: 5px 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 160px;
+    height: 50px;
+    box-shadow: 0px 0px 2px #c8c7c7;
+}
+  
+#start {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+#start:hover {
+    animation: shake 0.5s;
+    background-color: #3e8e41;
+}
+
+#restart {
+    background-color: #4caf50;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+#restart:hover {
+    animation: shake 0.5s;
+    background-color: #3e8e41;
+}
+
+#game-over-message {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    margin-top: 20px;
+    
+}
+  
+
+  

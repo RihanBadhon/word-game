@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, intial-scale=1">
+    <meta name="author" content="Rihan Badhon">
+    <meta name="description" content="Alarm Clock">
+    <meta name="keywords" content="html, css, javascript">
+    <title>Word Race</title>
+    <link rel="icon" href="./src/img/icon-favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/mrspecht/cdn/reset.css" media="all">
+    <link rel="stylesheet" href="./src/css/style.css" media="all">
+    <script src="./src/script/script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Word Race</h1>
+      <p>Enter as many words as possible before the time runs out!</p>
+      <div class="game">
+        <div class="timer">
+           <span id="time">90</span> Seconds
+        </div>
+        <div class="score">
+          Score: <span id="score">0</span>
+        </div>
+        <div class="word">
+          <span id="word"></span>
+          <input type="text" id="input">
+        </div>
+        <button id="start">Start</button>
+        <button id="restart" style="display: none;">Restart</button>
+      </div>
+    </div>
+    <p id="game-over-message"></p>
+    <table id="scoreboard">     
+    </table>
+  </body>
+</html>
+    
